@@ -10,6 +10,7 @@ export { default as Sidebar } from './Sidebar';
 export { default as ThemeSettings } from './ThemeSettings';
 export { default as UserProfile } from './UserProfile';
 
+// Charts
 export { default as LineChart } from './Charts/LineChart';
 export { default as PieChart } from './Charts/PieChart';
 export { default as SparkLine } from './Charts/SparkLine';
