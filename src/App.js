@@ -42,7 +42,7 @@ function App() {
               <Route path='/ecommerce' element={ <ECommerce /> } />
 
               { /* Pages */ }
-              <Route path='/order' element={ <Orders /> } />
+              <Route path='/orders' element={ <Orders /> } />
               <Route path='/employees' element={ <Employees /> } />
               <Route path='/customers' element={ <Customers /> } />
 
