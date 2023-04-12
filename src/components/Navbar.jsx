@@ -74,7 +74,7 @@ const Navbar = () => {
         />
         <TooltipComponent content='Profile' position='BottomCenter'>
           <div
-            className='flex items-center gao-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
+            className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
             onClick={ () => handleClick('userProfile') }
           >
             <img src={ avatar } alt='User Profile' className='rounded-full w-8 h-8' />
