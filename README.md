@@ -23,7 +23,7 @@ This is a front-end dashboard developed in React to study new tools and UI resou
 ---
 # Deployment / *Implantação*
 
-See it in action/ **Veja em ação**: [https://project-delivery-app-front.vercel.app/](https://project-delivery-app-front.vercel.app/)
+See it in action/ **Veja em ação**: [https://react-dashboard9.netlify.app/](https://react-dashboard9.netlify.app/)
 
 Commands:
 
