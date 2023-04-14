@@ -10,7 +10,7 @@ import { useStateContext } from '../contexts/ContextProvider';
 import avatar from '../data/avatar.jpg';
 
 const Navbar = () => {
-  const { activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick, screenSize, setScreenSize, currentColor } = useStateContext();
+  const { setActiveMenu, isClicked, handleClick, screenSize, setScreenSize, currentColor } = useStateContext();
   const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
     <TooltipComponent content={ title } position='BottomCenter'>
       <button
@@ -19,11 +19,9 @@ const Navbar = () => {
         style = {{ color }}
         className='relative text-xl rounded-full p-3 hover:bg-light-gray'
       >
-        <span
-          style={{ background: dotColor }}
-          className='absolute inline-flex rounded-full h-2 w-2 right-2 top-0'
-        />
-        { icon }
+        <span style={{ background: dotColor }} className='absolute inline-flex rounded-full h-2 w-2 right-2 top-0'>
+          { icon }
+        </span>
       </button>
     </TooltipComponent>
   )
